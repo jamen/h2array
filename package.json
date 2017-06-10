@@ -1,0 +1,12 @@
+{
+  "name": "h2json",
+  "description": "Create JSON nodes from h(...) calls",
+  "author": "Jamen Marz (https://git.io/jamen)",
+  "version": "0.0.0",
+  "repository": "jamen/h2json",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test"
+  }
+}
+
