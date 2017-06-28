@@ -12,6 +12,7 @@
 This module provides a variant of `h()` for storing calls as arrays, allowing you to serialize them as JSON for later use.
 
 ## usage
+[![NPM](https://nodei.co/npm/h2array.png?mini)](https://www.npmjs.com/package/h2array)
 
 ### `h(tag, attributes?, children?)`
 Stores `tag`, `attributes`, and `children` in an array. Handles any missing arguments according to [`hyper2/h2spec`](https://github.com/hyper2/h2spec).
