@@ -1,6 +1,4 @@
-
-# h2json
-
+# h2array
 > Create JSON nodes from h(...) calls
 
 Creates a compact structure out of your `h(...)` calls, to be serialized as JSON afterwards
@@ -24,15 +22,13 @@ The objects created here are **only** intended for use with JSON because they ar
 To create a tree of proper nodes of your choosing from these objects (DOM, VDOM, string, etc), supply a `h` function and the parsed tree:
 
 ```js
-h2json.create(h, nodes)
+h2array.convert(h, nodes)
 // '<div class="bar"><span>hello</span><span>world</span></div>'
 ```
 
 ## Usage
-
-Functions exported as `{ h, create }`
+Functions exported as `{ h, convert }`
 
 ### `h(name, data?, children?)`
 
-### `create(h, tree)`
-
+### `convert(h, tree)`
